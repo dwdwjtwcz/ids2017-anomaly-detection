@@ -6,3 +6,5 @@ jax
 jaxlib
 fastai
 pyarrow
+tensorflow
+sklearn
