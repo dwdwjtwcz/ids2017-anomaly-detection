@@ -7,4 +7,4 @@ jaxlib
 fastai
 pyarrow
 tensorflow
-sklearn
+scikit-learn
