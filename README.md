@@ -21,6 +21,7 @@ Zbiór danych IDS2017 zawiera najbardziej powszechne w 2017 roku ataki, które p
 
 Dane w zestawie zostały podzielone na kolejne dni tygodnia, w których występują różne ataki. Wybrane przez nas próbki to:
 
+- Poniedziałek (Większa próbka ruchu benign)
 - Środa (Różne ataki DoS)
 - Piątek (Atak DDoS)
 - Połączone dane z atakami typu DoS (Poniedziałek + Środa + Piątek)
@@ -66,12 +67,12 @@ Użyte modele to:
 ### Podsumowanie
 | Nazwa                    | accuracy | Komentarz                                                    |
 |--------------------------|----------|--------------------------------------------------------------|
-| Random Forest Classifier | 0.99     | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
-| Bayes                    | 0.48     |                                                              |
-| Isolation Forest         | 0.67     |                                                              |
-| auto-encode              | 0.889    |                                                              |
-| K-NN                     | 0.99     | Wysokie accuracy wynika z charakteru datasetu                |
-| Logistic Regression      | 79.6     | Dobry model do dyskryminacji binarnej                        |
+| Random Forest Classifier | 99%     | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
+| Bayes                    | 48%     |                                                              |
+| Isolation Forest         | 67%     |                                                              |
+| auto-encode              | 88.9%    |                                                              |
+| K-NN                     | 99%     | Wysokie accuracy wynika z charakteru datasetu                |
+| Logistic Regression      | 79.6%     | Dobry model do dyskryminacji binarnej                        |
 
 
 
