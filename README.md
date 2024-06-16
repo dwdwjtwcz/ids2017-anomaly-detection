@@ -1,7 +1,22 @@
 # ids2017-anomaly-detection
+
 Wykrywanie anomalii sieciowych z użyciem uczenia maszynowego 2024
 
+## Uruchomienie
+
+```bash
+git clone https://github.com/dwdwjtwcz/ids2017-anomaly-detection
+cd ids2017-anomaly-detection/IDS2017/Raw
+wget http://205.174.165.80/CICDataset/CIC-IDS-2017/Dataset/CIC-IDS-2017/CSVs/MachineLearningCSV.zip
+unizip MachineLearningCSV.zip
+cd ..
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook
+```
 ## O zestawie danych
+
 Zbiór danych IDS2017 zawiera najbardziej powszechne w 2017 roku ataki, które przypominają prawdziwe dane ze świata rzeczywistego. Zawiera również wyniki analizy ruchu sieciowego.
 
 Dane w zestawie zostały podzielone na kolejne dni tygodnia, w których występują różne ataki. Wybrane przez nas próbki to:
@@ -13,6 +28,7 @@ Dane w zestawie zostały podzielone na kolejne dni tygodnia, w których występu
 [Prezentacja zestawu](/statistics.ipynb)
 
 ## Przygotowanie danych
+
 Oryginalnie dane miały format plików CSV, ze wględu na oszczędność zasbów działaliśmy głównie na formacie parquet.
 
 Zaczęliśmy od downsizingu, usunięcia wartości NaN i zduplikowanych wierszy. 
@@ -24,6 +40,7 @@ Następnie użyliśmy metody Recursive Feature Elimination w celu zmiejszenia il
 [Wybór cech](./Data_Cleaning/clean_to_final.ipynb)
 
 ## Podejście z uczeniem nadzorowanym
+
 Ze względu na charakter danych (każdy rekord oznaczony jako normalny ruch lub jako atak), naszym głównym podejściem było podejście z uczeniem nadzorowanym.
 
 Użyte przez nas modele to:
@@ -33,9 +50,11 @@ Użyte przez nas modele to:
 - [Naive Bayes](/Bayes.ipynb)
 
 ### Podsumowanie
+
 Tabelki i wnioski
 
 ## Podejście z uczeniem nienadzorowanym
+
 Po wyrzuceniu kolumny danych oznaczających je jako atak/ruch normalny można też przetestować działanie algorytmów uczenia nienadzorowanego. Uzyskane efekty jednak wskazują na to, że ten konkretny zbiór lepiej radzi sobie z uczeniem z nadzorem.
 
 Użyte modele to:
@@ -45,6 +64,7 @@ Użyte modele to:
 - [Isolation Forest](/iso_forest.ipynb)
 
 ### Podsumowanie
+
 Tabelki i wnioski
 
 
