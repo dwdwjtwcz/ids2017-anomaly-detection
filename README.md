@@ -64,7 +64,14 @@ Użyte modele to:
 - [Isolation Forest](/iso_forest.ipynb)
 
 ### Podsumowanie
-
+| Nazwa                    | accuracy | Komentarz                                                    |
+|--------------------------|----------|--------------------------------------------------------------|
+| Random Forest Classifier | 0.99     | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
+| Bayes                    | 0.48     |                                                              |
+| Isolation Forest         | 0.67     |                                                              |
+| auto-encode              | 0.889    |                                                              |
+| K-NN                     | 0.99     | Wysokie accuracy wynika z charakteru datasetu                |
+| Logistic Regression      | 79.6     | Dobry model do dyskryminacji binarnej                        |
 Tabelki i wnioski
 
 
