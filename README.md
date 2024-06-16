@@ -36,6 +36,16 @@ Użyte przez nas modele to:
 Tabelki i wnioski
 
 ## Podejście z uczeniem nienadzorowanym
+Po wyrzuceniu kolumny danych oznaczających je jako atak/ruch normalny można też przetestować działanie algorytmów uczenia nienadzorowanego. Uzyskane efekty jednak wskazują na to, że ten konkretny zbiór lepiej radzi sobie z uczeniem z nadzorem.
+
+Użyte modele to:
+- [K-Means](/K-Means.ipynb)
+- [PCA](/PCA.ipynb)
+- [Autoencoder](/auto_encode.ipynb)
+- [Isolation Forest](/iso_forest.ipynb)
+
+### Podsumowanie
+Tabelki i wnioski
 
 
 
