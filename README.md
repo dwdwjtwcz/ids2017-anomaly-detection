@@ -72,7 +72,7 @@ Użyte modele to:
 | auto-encode              | 0.889    |                                                              |
 | K-NN                     | 0.99     | Wysokie accuracy wynika z charakteru datasetu                |
 | Logistic Regression      | 79.6     | Dobry model do dyskryminacji binarnej                        |
-Tabelki i wnioski
+
 
 
 
