@@ -49,6 +49,7 @@ Użyte przez nas modele to:
 - [Logistic Regression](/LogisticRegression.ipynb)
 - [K-Nearest Neighbours](/K-NN.ipynb)
 - [Naive Bayes](/Bayes.ipynb)
+- [Multi Layer Percerptron](/MLP.ipynb)
 
 ### Podsumowanie
 
@@ -73,7 +74,7 @@ Użyte modele to:
 | auto-encode              | 88.9%    |                                                              |
 | K-NN                     | 99%     | Wysokie accuracy wynika z charakteru datasetu                |
 | Logistic Regression      | 79.6%     | Dobry model do dyskryminacji binarnej                        |
-
+| MLP                      | 96%     |                                                               |
 
 
 
