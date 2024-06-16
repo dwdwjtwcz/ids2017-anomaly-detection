@@ -8,3 +8,5 @@ fastai
 pyarrow
 tensorflow
 scikit-learn
+keras
+keras-tuner
