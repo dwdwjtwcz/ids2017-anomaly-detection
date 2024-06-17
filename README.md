@@ -75,8 +75,8 @@ Użyte modele to:
 
 | Nazwa                    | accuracy | Komentarz                                                    |
 |--------------------------|----------|--------------------------------------------------------------|
-| K-Means                  | 67%      |                                                              |
-| PCA                      | 67%      |                                                              |
+| K-Means                  | -        |                                                              |
+| PCA                      | -        |                                                              |
 | Isolation Forest         | 67%      |                                                              |
 | Autoencoder              | 88.9%    |                                                              |
 
