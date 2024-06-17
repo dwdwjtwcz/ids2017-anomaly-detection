@@ -53,7 +53,13 @@ Użyte przez nas modele to:
 
 ### Podsumowanie
 
-Tabelki i wnioski
+| Nazwa                    | accuracy | Komentarz                                                    |
+|--------------------------|----------|--------------------------------------------------------------|
+| Random Forest Classifier | 99%      | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
+| Logistic Regression      | 79.6%    | Dobry model do dyskryminacji binarnej                        |
+| K-NN                     | 99%      | Wysokie accuracy wynika z charakteru datasetu                |
+| Naive Bayes              | 48%      |                                                              |
+| MLP                      | 96%      |                                                              |
 
 ## Podejście z uczeniem nienadzorowanym
 
@@ -66,15 +72,14 @@ Użyte modele to:
 - [Isolation Forest](/iso_forest.ipynb)
 
 ### Podsumowanie
+
 | Nazwa                    | accuracy | Komentarz                                                    |
 |--------------------------|----------|--------------------------------------------------------------|
-| Random Forest Classifier | 99%     | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
-| Bayes                    | 48%     |                                                              |
-| Isolation Forest         | 67%     |                                                              |
-| auto-encode              | 88.9%    |                                                              |
-| K-NN                     | 99%     | Wysokie accuracy wynika z charakteru datasetu                |
-| Logistic Regression      | 79.6%     | Dobry model do dyskryminacji binarnej                        |
-| MLP                      | 96%     |                                                               |
+| K-Means                  | 67%      |                                                              |
+| PCA                      | 67%      |                                                              |
+| Isolation Forest         | 67%      |                                                              |
+| Autoencoder              | 88.9%    |                                                              |
+
 
 
 
