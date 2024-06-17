@@ -56,9 +56,9 @@ Użyte przez nas modele to:
 | Nazwa                    | accuracy | Komentarz                                                    |
 |--------------------------|----------|--------------------------------------------------------------|
 | Random Forest Classifier | 99%      | Duża ilość niezależnych cech pozwala na wysoką jakość modelu |
-| Logistic Regression      | 79.6%    | Dobry model do dyskryminacji binarnej                        |
+| Logistic Regression      | 93%    | Dobry model do dyskryminacji binarnej                        |
 | K-NN                     | 99%      | Wysokie accuracy wynika z charakteru datasetu                |
-| Naive Bayes              | 48%      |                                                              |
+| Naive Bayes              | 22%      |                                                              |
 | MLP                      | 96%      |                                                              |
 
 ## Podejście z uczeniem nienadzorowanym
